@@ -1,0 +1,55 @@
+.background{
+background-color:blueviolet;
+
+}
+h1, p{
+text-align:center;
+color:white;  
+}
+
+.Name {
+margin:30px;
+width:80%;
+}
+
+.first{
+margin:5px;
+width:95%;
+color:darkblue;
+background-color:darkblue;
+}
+
+label{
+color:white;    
+}
+
+hr{
+background-color:lightblue;
+border-color:darkblue;
+height:3px;
+}
+
+.main{
+    width:80%;
+    background-color:mediumslateblue;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:500px;
+    padding: 20px;    
+}
+
+.option{
+width:95%;
+}
+
+.submit{
+    background-color:mediumaquamarine;
+    width:100%;    
+    border: none;
+    color:mediumslateblue;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+ 
+}

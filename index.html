@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-with, initial-scale=1.0"/>
+<title>Registration Form</title>
+<link href="styles.css" rel="stylesheet"/>
+<body class="background">
+<head>
+<h1>REGISTRATION FORM</h1>
+<p>Please fill out this form with the required information</p>  
+</head>
+
+<main>
+<div class="main">
+<form method="post" action="#">
+<section>
+<div class="Name">
+<label for="First Name">First Name</label>
+<input class="first" type="text" name="First-Name" id="full-name" Placeholder="First Name"/>
+</div>
+</section>
+
+<section>
+<div class="Name">
+<label for="Last-Name">Last Name</label>
+<input class="first" type="text" name="Last-Name" id="last-name" Placeholder="Last Name"/>
+</div>
+</section>
+
+<section>
+<div class="Name">
+<label for="Email">Enter Your Email</label>
+<input class="first" type="email" name="email" id="email" Placeholder="Email"/>
+</div>
+</section>
+
+<section>
+<div class="Name">
+<label for="password">Create a New Password</label>
+<input class="first" type="password" name="password" id="password" Placeholder="Password"/>
+</div>
+</section>
+<hr />
+
+<section>
+<label for="Personal-Account">
+<input type="radio" id="personal-account" names="personal-account" value="True"/>
+Personal Account    
+</label>
+</section>
+
+<section>
+<label for="Business-Account">
+<input type="radio" id="personal-account" names="personal-account" value="True"/>
+Business Account    
+</label>
+</section>
+
+<section>
+<label for="terms-conditions">
+<input type="checkbox" id="business-account" names="business-account" value="False"/>
+I accept the <a href="https://www.google.com/">terms & conditions</a>    
+</label>
+</section>
+    
+<hr />
+
+<section>
+<label for="profile-picture">Upload a profile Picture</label><br/>
+<input type="file" id="image" name="profile_photo" placeholder="Picture" required="" capture>
+</section>
+<br/>
+<section>
+<label for="Age">Input your Age here</label><br/>
+<input class="first" type="number" name="age" id="age" />
+</section>
+
+<section>
+<label for="Option">How did yu hear about us?</label>
+<select class="option">
+<option>Online</option>   
+<option>Newspaper</option>
+<option>TV Ads</option>
+</select>
+</section>
+<br/>
+<section>
+<label for="First Name">Provide a Bio:</label><br/><br/>
+<textarea rows="4" cols="50" name="comment" form="usrform">
+I like coding because...</textarea>
+</section>
+<br/>
+<button class="submit">Submit</button>
+
+</form>
+</div>
+</main>
+</body>
+</html>
+
+
